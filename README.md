@@ -1,6 +1,6 @@
 # eleventy-base-blog-sass
 
-This is a simple fork of the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog), a starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator. This is almost the perfect starter for me, but I wanted to use scss files to compile my CSS. If you're looking for a simple Sass starter with some pre-built posts for an Eleventy project, I hope this helps you out.
+This is a simple fork of the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog), a starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator. This is almost the perfect starter for me, but I wanted to use scss files to compile my CSS. If you're looking for a simple Sass starter with some pre-built sample posts for an Eleventy project, I hope this helps you out.
 
 
 ## The big diffs
