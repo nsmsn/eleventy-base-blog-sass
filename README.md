@@ -1,14 +1,15 @@
 # eleventy-base-blog-sass
 
-This is a simple fork of the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog), a starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator. This is almost the perfect starter for me, but I wanted to use scss files to compile my CSS. If you're looking for a simple Sass starter with some pre-built sample posts for an Eleventy project, I hope this helps you out.
+This is a simple fork of the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog), a starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator. This is almost the perfect starter for me, but I wanted to use scss files to compile my CSS. If you're looking for a simple Node Sass starter with some pre-built sample posts for an Eleventy project, I hope this helps you out.
 
 
 ## The big diffs
 
 * This project uses a folder named 'src' for all the data and templates, and outputs to a 'public' folder (personal preference).
 * styles are composed is src/sass/ and output to public/css/
-* In .eleventy.js there is a configuration to watch the sass folder and 
+* In .eleventy.js there is a configuration to watch the sass folder using .addWatchTarget
 * BrowserSync config uses "public/404.html" for the error
+* package.json has updated scripts for a streamlined build process for building, serving, and watching sass and eleventy.
 
 
 ## Thank You
