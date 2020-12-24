@@ -1,28 +1,27 @@
-# eleventy-base-blog
+# eleventy-base-blog-sass
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+This is a simple fork of the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog), a starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator. This is almost the perfect starter for me, but I wanted to use scss files to compile my CSS. If you're looking for a simple Sass starter with some pre-built posts for an Eleventy project, I hope this helps you out.
 
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
 
-## Demos
+## The big diffs
 
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
-* [Remix on Glitch](https://glitch.com/~11ty-eleventy-base-blog)
+* This project uses a folder named 'src' for all the data and templates, and outputs to a 'public' folder (personal preference).
+* styles are composed is src/sass/ and output to public/css/
+* In .eleventy.js there is a configuration to watch the sass folder and 
+* BrowserSync config uses "public/404.html" for the error
 
-## Deploy this to your own site
 
-These builders are amazing—try them out to get your own Eleventy site in a few clicks!
+## Thank You
 
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Get your own Eleventy web site on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
+I wouldn't have been able to figure this out without [@5t3ph](https://github.com/5t3ph/)'s 'Eleventy from Scratch in 20 Minutes' [course on egghead.io](https://egghead.io/playlists/build-an-eleventy-11ty-site-from-scratch-bfd3)
+
 
 ## Getting Started
 
 ### 1. Clone this Repository
 
 ```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
+git clone https://github.com/nsmsn/eleventy-base-blog-sass.git my-blog-name
 ```
 
 
@@ -42,26 +41,17 @@ npm install
 
 ### 4. Edit _data/metadata.json
 
-### 5. Run Eleventy
+### 5. Run the build process
 
 ```
-npx eleventy
-```
-
-Or build and host locally for local development
-```
-npx eleventy --serve
-```
-
-Or build automatically when a template changes:
-```
-npx eleventy --watch
+npm start
 ```
 
 Or in debug mode:
 ```
 DEBUG=* npx eleventy
 ```
+
 
 ### Implementation Notes
 
