@@ -66,7 +66,7 @@ module.exports = function(eleventyConfig) {
     return [...tagSet];
   });
 
-  eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("./src/img");
 
   eleventyConfig.addWatchTarget("./src/sass");
   eleventyConfig.addPassthroughCopy("./src/css");
